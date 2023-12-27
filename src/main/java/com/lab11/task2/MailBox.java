@@ -1,10 +1,10 @@
 package com.lab11.task2;
 
-import com.mailjet.client.errors.MailjetException;
-import com.mailjet.client.errors.MailjetSocketTimeoutException;
 
 import java.util.ArrayList;
 import java.util.List;
+import com.mailjet.client.errors.MailjetException;
+import com.mailjet.client.errors.MailjetSocketTimeoutException;
 
 public class MailBox {
     private List<MailInfo> info;

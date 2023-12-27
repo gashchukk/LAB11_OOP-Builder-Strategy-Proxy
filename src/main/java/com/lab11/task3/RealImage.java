@@ -16,6 +16,6 @@ public class RealImage implements MyImage {
     }
 
     public void output() {
-        frame.setoutput(true);
+        frame.setVisible(true);
     }
 }
